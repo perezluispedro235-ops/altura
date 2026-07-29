@@ -1,47 +1,68 @@
 [
   {
-    "id": "2026-08-02-salida-larga",
-    "title": "Salida larga domingo",
-    "type": "entrenamiento",
-    "date": "2026-08-02",
-    "time": "06:00",
-    "location": "Parque Central, La Antigua Guatemala",
-    "locationUrl": "https://maps.google.com/?q=Parque+Central+Antigua+Guatemala",
-    "distance": "12 km",
-    "description": "Ritmo suave, punto de salida en el Parque Central. Hidratación por cuenta propia."
-  },
-  {
-    "id": "2026-08-05-fondo-corto",
-    "title": "Fondo corto + técnica",
-    "type": "entrenamiento",
-    "date": "2026-08-05",
-    "time": "05:30",
-    "location": "Cerro de la Cruz",
-    "locationUrl": "https://maps.google.com/?q=Cerro+de+la+Cruz+Antigua+Guatemala",
-    "distance": "6 km",
-    "description": "Subida al Cerro de la Cruz con ejercicios de técnica de carrera al bajar."
-  },
-  {
-    "id": "2026-08-16-carrera-antigua",
-    "title": "Carrera 10K Antigua Colonial",
-    "type": "carrera",
-    "date": "2026-08-16",
-    "time": "07:00",
-    "location": "Salida: Arco de Santa Catalina",
-    "locationUrl": "https://maps.google.com/?q=Arco+de+Santa+Catalina+Antigua+Guatemala",
-    "distance": "10 km",
-    "description": "Carrera oficial por las calles empedradas del centro histórico. Inscripción previa requerida.",
-    "link": ""
-  },
-  {
-    "id": "2026-08-23-salida-social",
-    "title": "Trote social + desayuno",
+    "id": "2026-08-02-social-run",
+    "title": "Social run",
     "type": "social",
-    "date": "2026-08-23",
+    "date": "2026-08-02",
     "time": "06:30",
     "location": "Parque Central, La Antigua Guatemala",
     "locationUrl": "https://maps.google.com/?q=Parque+Central+Antigua+Guatemala",
-    "distance": "5 km",
-    "description": "Trote relajado seguido de desayuno grupal. Ideal para invitar amigos nuevos al club."
+    "distance": "",
+    "description": "Reunión en el Parque Central. Trote grupal a ritmo social, todos bienvenidos."
+  },
+  {
+    "id": "2026-08-05-entreno-azotea",
+    "title": "Entreno en Finca La Azotea",
+    "type": "entrenamiento",
+    "date": "2026-08-05",
+    "time": "17:00",
+    "location": "Finca La Azotea",
+    "locationUrl": "",
+    "distance": "",
+    "description": ""
+  },
+  {
+    "id": "2026-08-12-entreno-azotea",
+    "title": "Entreno en Finca La Azotea",
+    "type": "entrenamiento",
+    "date": "2026-08-12",
+    "time": "17:00",
+    "location": "Finca La Azotea",
+    "locationUrl": "",
+    "distance": "",
+    "description": ""
+  },
+  {
+    "id": "2026-08-19-test-3k-5k",
+    "title": "Test de tiempo: 3K y 5K",
+    "type": "entrenamiento",
+    "date": "2026-08-19",
+    "time": "17:00",
+    "location": "Finca La Azotea",
+    "locationUrl": "",
+    "distance": "3 km / 5 km",
+    "description": "Test de 3K para niños y principiantes, y test de 5K para intermedios y avanzados."
+  },
+  {
+    "id": "2026-08-26-entreno-azotea",
+    "title": "Entreno en Finca La Azotea",
+    "type": "entrenamiento",
+    "date": "2026-08-26",
+    "time": "17:00",
+    "location": "Finca La Azotea",
+    "locationUrl": "",
+    "distance": "",
+    "description": ""
+  },
+  {
+    "id": "2026-09-02-entreno-azotea",
+    "title": "Entreno en Finca La Azotea",
+    "type": "entrenamiento",
+    "date": "2026-09-02",
+    "time": "17:00",
+    "location": "Finca La Azotea",
+    "locationUrl": "",
+    "distance": "",
+    "description": ""
   }
 ]
