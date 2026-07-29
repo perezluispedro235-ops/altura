@@ -1,0 +1,47 @@
+[
+  {
+    "id": "2026-08-02-salida-larga",
+    "title": "Salida larga domingo",
+    "type": "entrenamiento",
+    "date": "2026-08-02",
+    "time": "06:00",
+    "location": "Parque Central, La Antigua Guatemala",
+    "locationUrl": "https://maps.google.com/?q=Parque+Central+Antigua+Guatemala",
+    "distance": "12 km",
+    "description": "Ritmo suave, punto de salida en el Parque Central. Hidratación por cuenta propia."
+  },
+  {
+    "id": "2026-08-05-fondo-corto",
+    "title": "Fondo corto + técnica",
+    "type": "entrenamiento",
+    "date": "2026-08-05",
+    "time": "05:30",
+    "location": "Cerro de la Cruz",
+    "locationUrl": "https://maps.google.com/?q=Cerro+de+la+Cruz+Antigua+Guatemala",
+    "distance": "6 km",
+    "description": "Subida al Cerro de la Cruz con ejercicios de técnica de carrera al bajar."
+  },
+  {
+    "id": "2026-08-16-carrera-antigua",
+    "title": "Carrera 10K Antigua Colonial",
+    "type": "carrera",
+    "date": "2026-08-16",
+    "time": "07:00",
+    "location": "Salida: Arco de Santa Catalina",
+    "locationUrl": "https://maps.google.com/?q=Arco+de+Santa+Catalina+Antigua+Guatemala",
+    "distance": "10 km",
+    "description": "Carrera oficial por las calles empedradas del centro histórico. Inscripción previa requerida.",
+    "link": ""
+  },
+  {
+    "id": "2026-08-23-salida-social",
+    "title": "Trote social + desayuno",
+    "type": "social",
+    "date": "2026-08-23",
+    "time": "06:30",
+    "location": "Parque Central, La Antigua Guatemala",
+    "locationUrl": "https://maps.google.com/?q=Parque+Central+Antigua+Guatemala",
+    "distance": "5 km",
+    "description": "Trote relajado seguido de desayuno grupal. Ideal para invitar amigos nuevos al club."
+  }
+]

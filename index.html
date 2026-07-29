@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendario · Running Club La Antigua</title>
+<meta name="description" content="Calendario de eventos, entrenamientos y carreras del running club de La Antigua Guatemala.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏃</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-mark">🏃</span>
+      <div>
+        <h1>Running Club La Antigua</h1>
+        <p class="tagline">Calendario de entrenamientos, carreras y salidas</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="layout">
+  <section class="calendar-panel" aria-label="Calendario mensual">
+    <div class="calendar-toolbar">
+      <button id="prevMonth" class="nav-btn" aria-label="Mes anterior">‹</button>
+      <h2 id="monthLabel">Mes</h2>
+      <button id="nextMonth" class="nav-btn" aria-label="Mes siguiente">›</button>
+    </div>
+
+    <div class="filters" role="group" aria-label="Filtrar por tipo de evento">
+      <button class="filter-chip active" data-type="all">Todos</button>
+      <button class="filter-chip" data-type="entrenamiento">Entrenamiento</button>
+      <button class="filter-chip" data-type="carrera">Carrera</button>
+      <button class="filter-chip" data-type="social">Social</button>
+    </div>
+
+    <div class="weekday-row">
+      <span>Lun</span><span>Mar</span><span>Mié</span><span>Jue</span><span>Vie</span><span>Sáb</span><span>Dom</span>
+    </div>
+    <div id="calendarGrid" class="calendar-grid" role="grid" aria-label="Días del mes"></div>
+  </section>
+
+  <aside class="upcoming-panel" aria-label="Próximos eventos">
+    <h2>Próximos eventos</h2>
+    <ul id="upcomingList" class="upcoming-list"></ul>
+  </aside>
+</main>
+
+<div id="eventModal" class="modal-overlay hidden" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button id="modalClose" class="modal-close" aria-label="Cerrar">×</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>Los eventos se administran editando <code>data/events.json</code>. Ver <code>README.md</code> para instrucciones.</p>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
