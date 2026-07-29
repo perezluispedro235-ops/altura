@@ -188,9 +188,9 @@
     const ics = [
       "BEGIN:VCALENDAR",
       "VERSION:2.0",
-      "PRODID:-//Running Club La Antigua//ES",
+      "PRODID:-//Altura Athletics//ES",
       "BEGIN:VEVENT",
-      `UID:${e.id}@running-club-la-antigua`,
+      `UID:${e.id}@altura-athletics`,
       `DTSTART:${fmt(start)}`,
       `DTEND:${fmt(end)}`,
       `SUMMARY:${e.title}`,

@@ -1,6 +1,6 @@
-# Calendario · Running Club La Antigua
+# Calendario · Altura Athletics
 
-Sitio web estático con el calendario de eventos del running club: entrenamientos, carreras y salidas sociales. Vista de calendario mensual + lista de próximos eventos, filtros por tipo, y botón para agregar cada evento al calendario personal (Google Calendar, Apple Calendar, Outlook, etc. vía archivo `.ics`).
+Sitio web estático con el calendario de eventos del club: entrenamientos, carreras y salidas sociales. Vista de calendario mensual + lista de próximos eventos, filtros por tipo, y botón para agregar cada evento al calendario personal (Google Calendar, Apple Calendar, Outlook, etc. vía archivo `.ics`).
 
 No requiere backend, base de datos ni proceso de build.
 
